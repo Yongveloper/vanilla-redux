@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 const Detail = ({ toDo }) => {
   return (
     <>
-      <h1>{toDo?.text}</h1>
-      <h1>Created at: {toDo?.id}</h1>
+      <h1>{toDo.text}</h1>
+      <h1>Created at: {toDo.id}</h1>
     </>
   );
 };
